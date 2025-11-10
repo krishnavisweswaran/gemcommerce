@@ -1,0 +1,539 @@
+/* Reset and Base Styles */
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter Tight', -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', sans-serif;
+    background-color: #ffffff;
+    color: #161723;
+    line-height: 1.5;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Typography */
+h1, h2, h3 {
+    margin: 0;
+    padding: 0;
+    font-weight: 600;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 40px;
+    letter-spacing: 0.25px;
+}
+
+h2 {
+    font-size: 40px;
+    letter-spacing: 0.25px;
+}
+
+h3 {
+    font-size: 19px;
+    letter-spacing: 0.5px;
+}
+
+p {
+    font-size: 16px;
+    letter-spacing: 0.5px;
+    color: #424153;
+}
+
+/* Hero Section */
+.hero-section {
+    padding: 80px 0;
+    max-width: 1920px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 48px;
+}
+
+.hero-title {
+    text-align: center;
+    max-width: 536px;
+    font-weight: 600;
+}
+
+/* Features Container */
+.features-container {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    max-width: 1170px;
+}
+
+.features-left,
+.features-right {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+    width: 370px;
+}
+
+/* Feature Item */
+.feature-item {
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+}
+
+.feature-icon {
+    width: 60px;
+    height: 60px;
+    border-radius: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-shrink: 0;
+    overflow: visible;
+}
+
+.feature-icon svg {
+    width: 24px;
+    height: 24px;
+    overflow: visible;
+}
+.feature-icon img {
+  width: 32px;         /* adjust this size as you like */
+  height: 32px;        /* or set only width for auto-scale */
+  object-fit: contain; /* makes sure it fits nicely inside */
+  display: block;
+}
+
+.bg-green {
+    background-color: #dcf9ca;
+}
+
+.bg-yellow {
+    background-color: #f8f0d6;
+}
+
+.bg-cyan {
+    background-color: #c8f2e7;
+}
+
+.bg-peach {
+    background-color: #f7cabd;
+}
+
+.feature-content {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    flex: 1;
+}
+
+.feature-title {
+    color: #161723;
+    font-weight: 600;
+}
+
+.feature-description {
+    color: #424153;
+}
+
+/* Center Image */
+.center-image-container {
+    position: relative;
+    width: 370px;
+    height: 370px;
+    flex-shrink: 0;
+}
+
+.product-bowl {
+    width: 370px;
+    height: 370px;
+    background: #ffffff;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+}
+
+.bowl-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Timeline overlay effect */
+.center-image-container::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: 0;
+    bottom: 0;
+    width: 2px;
+    background: linear-gradient(180deg, #EE6F4B 0%, #EE6F4B 50%, #EE6F4B 100%);
+    transform: translateX(-50%);
+    z-index: 1;
+}
+
+/* CTA Container */
+.cta-container {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    align-items: center;
+    max-width: 600px;
+    width: 100%;
+}
+
+.cta-button {
+    background-color: #ee6f4b;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    padding: 12px 40px;
+    font-size: 16px;
+    font-weight: 600;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+.cta-button:hover {
+    background-color: #d95d3a;
+}
+
+.cta-footer {
+    display: flex;
+    gap: 24px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.guarantee {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    font-size: 13px;
+    color: #424153;
+}
+
+.guarantee svg {
+    flex-shrink: 0;
+}
+
+.payment-methods {
+    display: flex;
+    gap: 8px;
+    align-items: center;
+}
+
+.payment-icon {
+    width: 39.2px;
+    height: 24px;
+    background: white;
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+
+.payment-icon img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+}
+
+/* Nutrition Section */
+.nutrition-section {
+    background-color: #f8f8f8;
+    padding: 80px 0;
+}
+
+.nutrition-content {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.nutrition-text {
+    width: 580px;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+    padding-right: 32px;
+}
+
+.section-title {
+    margin-top: 0;
+    font-size: 40px;
+     line-height: 1.2;
+     letter-spacing: 0.25px;
+    font-weight: 600;
+    color: #161723;
+}
+.section-description {
+    margin-top: 16px;
+}
+
+.key-points {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.key-points-title {
+    font-size: 19px;
+    font-weight: 600;
+    color: #161723;
+    letter-spacing: 0.5px;
+}
+
+.stat-item {
+    display: flex;
+    gap: 48px;
+    align-items: center;
+}
+
+.stat-number {
+    font-size: 33px;
+    font-weight: 700;
+    color: #ee6f4b;
+    letter-spacing: 0.25px;
+    flex-shrink: 0;
+}
+
+.stat-description {
+    flex: 1;
+}
+
+.divider {
+    height: 1px;
+    background-color: #E3E3E8;
+    width: 100%;
+}
+
+.nutrition-image {
+    width: 570px;
+    height: 570px;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.nutrition-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+/* Benefits Section */
+.benefits-section {
+    padding: 80px 0;
+}
+
+.benefit-row {
+    max-width: 1170px;
+    margin: 0 auto;
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+}
+
+.benefit-row.reverse {
+    flex-direction: row-reverse;
+}
+
+.benefit-image {
+    width: 570px;
+    height: 480px;
+    border-radius: 10px;
+    overflow: hidden;
+    flex-shrink: 0;
+}
+
+.benefit-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.benefit-text {
+    width: 570px;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.benefit-row .benefit-text {
+    padding-left: 32px;
+}
+
+.benefit-row.reverse .benefit-text {
+    padding-left: 0;
+    padding-right: 32px;
+}
+
+/* Footer */
+.footer {
+    padding: 40px 20px;
+    text-align: center;
+    background-color: #f8f8f8;
+    color: #424153;
+    font-size: 14px;
+}
+
+/* Responsive Design */
+@media (max-width: 1200px) {
+    .features-container {
+        flex-wrap: wrap;
+        max-width: 800px;
+    }
+    
+    .features-left,
+    .features-right,
+    .center-image-container {
+        width: 100%;
+        max-width: 370px;
+    }
+    
+    .nutrition-content,
+    .benefit-row {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+    
+    .nutrition-text,
+    .benefit-text,
+    .nutrition-image,
+    .benefit-image {
+        width: 100%;
+        max-width: 570px;
+        padding: 0 !important;
+    }
+    
+    .benefit-row.reverse {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 768px) {
+    h1, h2 {
+        font-size: 32px;
+    }
+    
+    .hero-section,
+    .nutrition-section,
+    .benefits-section {
+        padding: 60px 20px;
+    }
+    
+    .features-left,
+    .features-right {
+        gap: 40px;
+    }
+    
+    .feature-item {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    
+    .stat-item {
+        flex-direction: column;
+        gap: 16px;
+        text-align: center;
+    }
+    
+    .cta-footer {
+        flex-direction: column;
+        gap: 16px;
+    }
+    
+    .center-image-container {
+        max-width: 300px;
+        height: 300px;
+    }
+    
+    .product-bowl {
+        width: 300px;
+        height: 300px;
+    }
+    
+    .nutrition-image {
+        height: 400px;
+    }
+    
+    .benefit-image {
+        height: 400px;
+    }
+}
+
+@media (max-width: 480px) {
+    h1, h2 {
+        font-size: 28px;
+    }
+    
+    h3 {
+        font-size: 17px;
+    }
+    
+    p {
+        font-size: 14px;
+    }
+    
+    .stat-number {
+        font-size: 28px;
+    }
+    
+    .cta-button {
+        padding: 10px 30px;
+        font-size: 14px;
+    }
+    
+    .feature-icon {
+        width: 50px;
+        height: 50px;
+    }
+    
+    .payment-methods {
+        gap: 6px;
+    }
+    
+    .payment-icon {
+        width: 32px;
+        height: 20px;
+    }
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.feature-item,
+.stat-item {
+    animation: fadeIn 0.6s ease-out;
+}
+
+/* Print Styles */
+@media print {
+    .cta-button,
+    .payment-methods {
+        display: none;
+    }
+}
