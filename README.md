@@ -78,9 +78,9 @@ To view or modify the project on your computer:
   - `.benefits-section` (and `.benefits-section.alt`) — two benefit blocks with alternating image/text layouts.
 
 - Key container elements and classes used:
-  - `.features-container` — 3-column layout grouping `.features-left`, `.center-image-container`, `.features-right`.
-  - `.feature-item` — repeated pattern for each feature: `.feature-icon` + `.feature-content`.
-  - `.center-image-container` + `.product-bowl` + `.bowl-image` — central hero image with a vertical timeline overlay (implemented via a `::before` pseudo-element).
+  - `.features-container` - 3-column layout grouping `.features-left`, `.center-image-container`, `.features-right`.
+  - `.feature-item` - repeated pattern for each feature: `.feature-icon` + `.feature-content`.
+  - `.center-image-container` + `.product-bowl` + `.bowl-image` - central hero image with a vertical timeline overlay (implemented via a `::before` pseudo-element).
   - CTA area: `.cta-container` with `.cta-button` and `.cta-footer` (guarantee + `.payment-methods` icons).
 
 - Example HTML snippet (hero feature pattern):
