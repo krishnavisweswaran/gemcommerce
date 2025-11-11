@@ -152,7 +152,7 @@ To view or modify the project on your computer:
 
 ### 💾 Data & Behavior
 
-- The page is static — no APIs or dynamic content are used.  
+- The page is static - no APIs or dynamic content are used.  
 - All images and icons are local and stored in the `images/` folder.  
 
 
