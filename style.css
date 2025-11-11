@@ -1,4 +1,4 @@
-/* Reset and Base Styles */
+/* Styles */
 /* Ensure mobile viewport behaves */
 html {
   width: 100%;
@@ -592,4 +592,5 @@ p {
         display: none;
     }
 }
+
 
