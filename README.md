@@ -30,7 +30,7 @@ gemcommerce/
 └─ README.md        # Project documentation
 
 ```
-## Key Files and Their Roles
+## 📂 Key Files and Their Roles
 
 ### 1. `index.html`
 - Acts as the **main entry point** of the website.  
