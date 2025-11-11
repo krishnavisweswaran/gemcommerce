@@ -1,7 +1,7 @@
 # GemCommerce — Technical Task Submission  
 Author:Krishna Visweswaran  
-## Live Link : [https://krishnavisweswaran.github.io/gemcommerce/](https://krishnavisweswaran.github.io/gemcommerce/)  
-## Repository : [https://github.com/krishnavisweswaran/gemcommerce](https://github.com/krishnavisweswaran/gemcommerce)
+ Live Link : [https://krishnavisweswaran.github.io/gemcommerce/](https://krishnavisweswaran.github.io/gemcommerce/)  
+ Repository : [https://github.com/krishnavisweswaran/gemcommerce](https://github.com/krishnavisweswaran/gemcommerce)
 
 ---
 
