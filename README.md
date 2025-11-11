@@ -130,6 +130,7 @@ To view or modify the project on your computer:
   background: linear-gradient(180deg, #EE6F4B 0%, #EE6F4B 100%);
   transform: translateX(-50%);
 }
+```
 ### 📱 Responsiveness & Breakpoints
 
 - **Desktop (≥1024px):** Three-column hero layout with fixed-width sides and a centered image (`.features-left`, `.center-image-container`, `.features-right`).  
@@ -137,7 +138,7 @@ To view or modify the project on your computer:
 - **Small screens (≤480px):** Font sizes and icon sizes are reduced for better mobile readability.
 
 ---
-```
+
 ### ♿ Accessibility & Semantics
 
 - Images include `alt` attributes.  
