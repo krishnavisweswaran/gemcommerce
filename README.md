@@ -1,5 +1,5 @@
 # GemCommerce — Technical Task Submission  
-Author: Krishna V V 
+Author: Krishna V V     
  Live Link : [https://krishnavisweswaran.github.io/gemcommerce/](https://krishnavisweswaran.github.io/gemcommerce/)  
  Repository : [https://github.com/krishnavisweswaran/gemcommerce](https://github.com/krishnavisweswaran/gemcommerce)
 
