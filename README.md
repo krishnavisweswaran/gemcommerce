@@ -154,9 +154,7 @@ To view or modify the project on your computer:
 
 - The page is static — no APIs or dynamic content are used.  
 - All images and icons are local and stored in the `images/` folder.  
-- The CTA button is visual and can later be linked to a form or page using a semantic element such as:
-  ```html
-  <a href="#" role="button" class="cta-button">Get Started</a>
+
 
 
 
