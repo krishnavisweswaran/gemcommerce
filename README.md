@@ -5,7 +5,7 @@ Repository: [https://github.com/krishnavisweswaran/gemcommerce](https://github.c
 
 ---
 
-## Overview
+## 🧠 Overview
 This project is a **static responsive section** built as part of the **GemCommerce Technical Test**.  
 It showcases a clean, modern layout using **HTML and CSS only**, focused on structure, alignment, and visual hierarchy.
 
@@ -21,7 +21,7 @@ The section is lightweight, fast-loading, and compatible across all major browse
 No JavaScript or frameworks were required for this task.
 
 
-## Folder Structure
+## 📁 Folder Structure
 ```plaintext
 gemcommerce/
 ├─ images/          # Contains all the image assets used in the page
