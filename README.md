@@ -23,11 +23,13 @@ No JavaScript or frameworks were required for this task.
 ---
 
 ## Folder Structure
+```plaintext
 gemcommerce/
-├─ images/ # Contains all the image assets used in the page
-├─ index.html # Main HTML file
-├─ style.css # Styling file for the layout and responsiveness
-└─ README.md # Project documentation
+├─ images/          # Contains all the image assets used in the page
+├─ index.html       # Main HTML file
+├─ style.css        # Styling file for the layout and responsiveness
+└─ README.md        # Project documentation
+
 
 ---
 
