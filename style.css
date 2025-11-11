@@ -158,9 +158,9 @@ p {
     overflow: visible;
 }
 .feature-icon img {
-  width: 32px;         /* adjust this size as you like */
-  height: 32px;        /* or set only width for auto-scale */
-  object-fit: contain; /* makes sure it fits nicely inside */
+  width: 32px;         
+  height: 32px;        
+  object-fit: contain; 
   display: block;
 }
 
@@ -592,5 +592,6 @@ p {
         display: none;
     }
 }
+
 
 
