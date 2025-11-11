@@ -20,7 +20,6 @@ The section is lightweight, fast-loading, and compatible across all major browse
 
 No JavaScript or frameworks were required for this task.
 
----
 
 ## Folder Structure
 ```plaintext
@@ -30,8 +29,6 @@ gemcommerce/
 ├─ style.css        # Styling file for the layout and responsiveness
 └─ README.md        # Project documentation
 
-
----
 
 ## Key Files and Their Roles
 
