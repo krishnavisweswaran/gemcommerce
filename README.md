@@ -33,18 +33,17 @@ gemcommerce/
 ## 📂 Key Files and Their Roles
 
 ### 1. `index.html`
-- Acts as the **main entry point** of the website.  
+- Acts as the main entry point of the website.  
 - Structured using semantic elements like `<header>`, `<section>`, `<div>`, and `<footer>`.  
 - Divided into logical parts such as:
   - Hero / Introduction
   - Feature or Product highlight section
-  - Footer with social or contact info
 - Each content block uses class names linked to `style.css` for styling.
 
 ### 2. `style.css`
 - Handles **typography**, **colors**, **grid layout**, and **spacing**.  
 - Mobile-first design: ensures the layout adapts gracefully to different screen sizes.  
-- Uses **Flexbox and CSS Grid** for clean alignment and responsiveness.  
+- Uses Flexbox and CSS Grid for clean alignment and responsiveness.  
 - Includes hover effects and spacing utilities for better visual balance.
 
 ### 3. `images/`
@@ -100,7 +99,7 @@ To view or modify the project on your computer:
 ### Mobile-first approach
 
 - Base CSS defines typography, spacing, and stacked/mobile behaviors.  
-- Breakpoints (`@media`) at **768px**, **1024px**, and **1200px** adapt the layout from mobile → tablet → desktop, switching to multi-column or flex/grid styles.
+- Breakpoints (`@media`) at 768px, 1024px, and 1200px adapt the layout from mobile → tablet → desktop, switching to multi-column or flex/grid styles.
 
 ### Key techniques used
 - **Flexbox** — for horizontal alignment in `.features-container`, `.feature-item`, `.cta-footer`, `.payment-methods`, `.row`.  
