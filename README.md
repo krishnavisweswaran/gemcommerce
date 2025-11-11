@@ -29,7 +29,7 @@ gemcommerce/
 ├─ style.css        # Styling file for the layout and responsiveness
 └─ README.md        # Project documentation
 
-
+```
 ## Key Files and Their Roles
 
 ### 1. `index.html`
