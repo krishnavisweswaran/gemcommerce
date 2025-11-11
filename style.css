@@ -1,4 +1,59 @@
 /* Reset and Base Styles */
+/* Ensure mobile viewport behaves */
+html {
+  width: 100%;
+  overflow-x: hidden; /* prevent horizontal scroll */
+}
+
+/* Responsive reset */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Container to limit width */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Responsive images */
+img, picture, video {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+/* Make row flex-wrap for mobile */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+/* Columns default full width on mobile */
+.col {
+  flex: 1 1 100%;
+}
+
+/* Media queries for larger screens */
+@media (min-width: 768px) {
+  .col-sm-6 {
+    flex: 1 1 calc(50% - 1rem);
+  }
+}
+
+@media (min-width: 1024px) {
+  .col-md-4 {
+    flex: 1 1 calc(33.333% - 1rem);
+  }
+}
+
 @import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@400;500;600;700&display=swap');
 * {
     margin: 0;
@@ -537,3 +592,4 @@ p {
         display: none;
     }
 }
+
