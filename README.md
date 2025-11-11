@@ -60,6 +60,13 @@ To view or modify the project on your computer:
    ```bash
    git clone https://github.com/krishnavisweswaran/gemcommerce.git
    cd gemcommerce
+    ```
+   ## ♿ Accessibility & SEO Considerations
+- Used semantic HTML for better accessibility.
+- Optimized heading hierarchy (H1 → H2 → H3).
+- Included responsive meta viewport for mobile scaling.
+- Lightweight structure ensures fast loading.
+
 
 
 
