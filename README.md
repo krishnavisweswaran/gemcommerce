@@ -60,8 +60,8 @@ To view or modify the project on your computer:
 1. Clone this repository:
    ```bash
    git clone https://github.com/krishnavisweswaran/gemcommerce.git
-cd gemcommerce
-```
+   cd gemcommerce
+
 
 
 
