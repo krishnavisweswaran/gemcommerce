@@ -7,7 +7,7 @@ Author: Krishna V V
 
 ## 🧠 Overview
 This project is a static responsive section built as part of the GemCommerce Technical Test.  
-It showcases a clean, modern layout using **HTML and CSS only**, focused on structure, alignment, and visual hierarchy.
+It showcases a clean, modern layout using HTML and CSS only, focused on structure, alignment, and visual hierarchy.
 
 The section is lightweight, fast-loading, and compatible across all major browsers.
 
